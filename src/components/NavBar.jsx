@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <div className="h-14 w-full bg-navbar-gradient px-4 flex items-center justify-between shadow">
       {/* Left pills */}
-      <div className="flex gap-4 ml-6">
+      <div className="flex gap-4 ml-40">
         <button className="h-8 px-5 rounded-full bg-[#3A7BD5] text-textDark text-sm font-medium">Home</button>
         <button className="h-8 px-5 rounded-full bg-[#3A7BD5] text-textDark text-sm font-medium">Tasks</button>
         <button className="h-8 px-5 rounded-full bg-[#3A7BD5] text-textDark text-sm font-medium">Calendar</button>

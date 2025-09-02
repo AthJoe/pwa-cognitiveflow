@@ -30,14 +30,21 @@ export default function RightPanel({ items = [] }) {
 
       {/* Coral list buttons with labels */}
       <div className="mt-16 space-y-4">
-        {(items.length ? items : ["default-channel", "Messages", "AI-Assistant"]).map((label, i) => (
           <button
-            key={i}
             className="h-10 w-full rounded-md bg-coral hover:bg-coralHover transition px-4 text-left text-sm font-medium text-textDark"
           >
-            {label}
+            Channels
           </button>
-        ))}
+          <button
+            className="h-10 w-full rounded-md bg-coral hover:bg-coralHover transition px-4 text-left text-sm font-medium text-textDark"
+          >
+            Messages
+          </button>
+          <button
+            className="h-10 w-full rounded-md bg-coral hover:bg-coralHover transition px-4 text-left text-sm font-medium text-textDark"
+          >
+            AI Assistant
+          </button>
       </div>
     </aside>
   );
